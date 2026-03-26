@@ -676,7 +676,7 @@ body.menu-open {
   gap: 6px;
   padding: 6px 10px;
   border-radius: 8px;
-  background: #e11d2e;
+  background: var(--navy);
   color: #fff;
   font-size: 0.8rem;
   font-weight: 600;
