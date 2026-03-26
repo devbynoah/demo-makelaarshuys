@@ -995,6 +995,37 @@ body.menu-open {
   color: var(--white);
 }
 
+.footer-brand-logo {
+  width: 122px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-brand-details {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+  line-height: 1.5;
+}
+
+.footer-detail-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-detail-item i {
+  width: 16px;
+  color: var(--gold);
+}
+
+.footer-detail-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  color: var(--gold);
+}
+
 .footer a {
   color: rgba(255, 255, 255, 0.7);
 }
