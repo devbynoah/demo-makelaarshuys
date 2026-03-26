@@ -1027,9 +1027,11 @@ body.menu-open {
 }
 
 .footer-socials {
+  position: relative;
   display: flex;
   gap: 10px;
   margin-top: 34px;
+  padding-top: 14px;
 }
 
 .footer-social-link {
@@ -1048,6 +1050,31 @@ body.menu-open {
   transform: translateY(-1px);
   border-color: rgba(255, 217, 0, 0.6);
   background: rgba(255, 217, 0, 0.12);
+}
+
+.footer-partners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.footer-partners-col .footer-partners {
+  margin-top: 0;
+}
+
+.footer-partner-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-partner-move-logo {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+  margin-left: 2px;
 }
 
 .footer a {
