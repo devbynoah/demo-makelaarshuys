@@ -34,6 +34,12 @@ body {
   line-height: 1.6;
 }
 
+body.solid-nav {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -454,7 +460,16 @@ body.menu-open {
 }
 
 .solid-nav main {
+  flex: 1;
+  display: flex;
+  align-items: center;
   padding-top: 90px;
+  min-height: calc(100vh - var(--topbar-h));
+}
+
+.solid-nav main .section {
+  width: 100%;
+  padding: 72px 0;
 }
 
 .solid-nav .nav-toggle {
