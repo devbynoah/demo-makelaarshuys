@@ -990,6 +990,11 @@ body.menu-open {
   gap: 28px;
 }
 
+.footer-links-col,
+.footer-extra-col {
+  padding-top: 142px;
+}
+
 .footer h4 {
   margin-bottom: 16px;
   color: var(--white);
@@ -998,7 +1003,7 @@ body.menu-open {
 .footer-brand-logo {
   width: 122px;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer-brand-details {
@@ -1006,12 +1011,14 @@ body.menu-open {
   display: grid;
   gap: 8px;
   line-height: 1.5;
+  color: #fff;
 }
 
 .footer-detail-item {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  color: #fff !important;
 }
 
 .footer-detail-item i {
@@ -1026,8 +1033,37 @@ body.menu-open {
   color: var(--gold);
 }
 
+.footer-socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 34px;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  color: #fff !important;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.footer-social-link:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 217, 0, 0.6);
+  background: rgba(255, 217, 0, 0.12);
+}
+
 .footer a {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links-col a,
+.footer-extra-col a {
+  color: #fff;
 }
 
 .reveal {
@@ -1109,6 +1145,11 @@ body.menu-open {
 }
 
 @media (max-width: 720px) {
+  .footer-links-col,
+  .footer-extra-col {
+    padding-top: 0;
+  }
+
   .mobile-nav {
     padding: 12px 12px 16px;
   }
