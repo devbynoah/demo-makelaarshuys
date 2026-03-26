@@ -919,7 +919,7 @@ body.menu-open {
 
 .footer {
   padding: 60px 0 40px;
-  background: #0a1626;
+  background: var(--navy);
   color: rgba(255, 255, 255, 0.7);
 }
 
